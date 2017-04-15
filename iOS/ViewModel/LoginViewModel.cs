@@ -7,6 +7,7 @@ namespace LoginTraining.iOS
 {
 	public class LoginViewModel : ReactiveObject
 	{
+		#region Private constants
 		/// <summary>
 		/// The name of the role.
 		/// </summary>
@@ -35,28 +36,10 @@ namespace LoginTraining.iOS
 		/// <summary>
 		/// The update command.
 		/// </summary>
-		private readonly ReactiveCommand<string, Unit> addPadKeyCommand;
-		/// <summary>
-		/// Initializes a new instance of the <see cref="T:LoginTraining.iOS.LoginViewModel"/> class.
-		/// </summary>
-		public LoginViewModel()
-		{
-			var canLogin = this.WhenAnyValue(x => x.Passcode, (p) => !string.IsNullOrEmpty(p));
+		private readonly ReactiveCommand<string, Unit> addKeyPadCommand;
+		#endregion
 
-			this.loginCommand = ReactiveCommand.CreateFromObservable(this.LoginAsync, canLogin);
-            this.clearCommand = ReactiveCommand.Create(() =>
-			{
-				RoleName = null;
-				Passcode = null;
-			});
-
-			addPadKeyCommand = ReactiveCommand.Create<string>((param) =>
-			{
-				Passcode += param;
-				Console.Write($"Bind {Passcode}");
-			});
-		}
-
+		#region Public constants
 		/// <summary>
 		/// Gets the login command.
 		/// </summary>
@@ -66,12 +49,33 @@ namespace LoginTraining.iOS
 		/// Gets the reset command.
 		/// </summary>
 		/// <value>The reset command.</value>
-		public ReactiveCommand<Unit, Unit> ResetCommand => this.clearCommand;
+		public ReactiveCommand<Unit, Unit> ClearCommand => this.clearCommand;
 		/// <summary>
 		/// Gets the update command.
 		/// </summary>
 		/// <value>The update command.</value>
-		public ReactiveCommand<string, Unit> UpdateCommand => this.addPadKeyCommand;
+		public ReactiveCommand<string, Unit> AddKeyPadCommand => this.addKeyPadCommand;
+		#endregion
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:LoginTraining.iOS.LoginViewModel"/> class.
+		/// </summary>
+		public LoginViewModel()
+		{
+			var canLogin = this.WhenAnyValue(x => x.Passcode, (p) => !string.IsNullOrEmpty(p));
+
+			this.loginCommand = ReactiveCommand.CreateFromObservable(this.LoginAsync, canLogin);
+			this.clearCommand = ReactiveCommand.Create(() =>
+			{
+				RoleName = null;
+				Passcode = null;
+			});
+
+			addKeyPadCommand = ReactiveCommand.Create<string>((param) =>
+			{
+				Passcode += param;
+				Console.Write($"Bind {Passcode}");
+			});
+		}
 
 		/// <summary>
 		/// Gets or sets the name of the role.

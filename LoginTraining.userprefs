@@ -1,22 +1,24 @@
 ﻿<Properties StartupConfiguration="{4B626916-CFD9-464B-B7B4-61687F50EAB7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Controls/RolesPicker.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LoginTraining Status">
     <Files>
-      <File FileName="iOS/Controller/ViewController.cs" Line="30" Column="33" />
-      <File FileName="iOS/Main.storyboard" />
+      <File FileName="iOS/Controller/ViewController.cs" Line="18" Column="16" />
       <File FileName="iOS/Controller/WelcomeController.cs" Line="19" Column="20" />
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="10" Column="3" />
-      <File FileName="iOS/ViewModel/LoginViewModel.cs" Line="64" Column="44" />
       <File FileName="iOS/Controls/RolesPicker.cs" Line="7" Column="26" />
+      <File FileName="iOS/Main.storyboard" />
+      <File FileName="Controller Status" />
+      <File FileName="iOS Status" />
+      <File FileName="LoginTraining Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/luan.nguyen/Desktop/Project/LoginTraining/iOS/Controller/LoginController.cs" relfile="iOS/Controller/LoginController.cs" line="58" column="1" />
+      <Breakpoint file="/Users/luan.nguyen/Desktop/Git/LoginTraining/iOS/Controller/LoginController.cs" relfile="iOS/Controller/LoginController.cs" line="58" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.LoginTraining.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6D795E9-79A9-4306-83F9-8192D99715D0" />
+  <MonoDevelop.Ide.ItemProperties.LoginTraining.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F5FAC8BC-3748-4367-80E9-D0EC876F828C" />
 </Properties>
