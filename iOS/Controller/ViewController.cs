@@ -27,7 +27,6 @@ namespace LoginTraining.iOS
 			LoginTitleLabel.BackgroundColor = UIColor.FromRGB(250, 250, 250);
 
 			// Picker binder and display
-			RolePickerView = new UIPickerView(new CoreGraphics.CGRect (10f, 244f, 300f, 250f));
 			RolePickerView.BackgroundColor = UIColor.FromRGB(255, 255, 255);
 			RolePickerView.Layer.CornerRadius = 10;
 			RolePickerView.Model = new RolesPicker(RoleButton, ViewModel);
@@ -35,7 +34,6 @@ namespace LoginTraining.iOS
 			RolePickerView.Hidden = true;
 			ViewModel.SelectedRoleIndex = 1;
 			RolePickerView.Select(ViewModel.SelectedRoleIndex, 0, true);
-			View.AddSubview(RolePickerView);
 
 			// Set border color for control
 			SetBorderControl();
@@ -150,7 +148,8 @@ namespace LoginTraining.iOS
 		/// Sets the color of the border.
 		/// </summary>
 		/// <param name="view">View.</param>
-		private void SetBorderColor(UIView view) {
+		private void SetBorderColor(UIView view)
+		{
 			view.Layer.BorderWidth = 1.0f;
 			view.Layer.BorderColor = UIColor.FromRGB(250, 250, 250).CGColor;
 		}
@@ -164,22 +163,25 @@ namespace LoginTraining.iOS
 			SetBorderColor(RoleButton);
 			SetBorderColor(CodeLabel);
 			SetBorderColor(RolePickerView);
+			SetBorderColor(ZeroButton);
+			SetBorderColor(LoginButton);
+			SetBorderColor(ClearButton);
 		}
 
 		private void BindCommandControl()
 		{
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.oneButton, Observable.Return(oneButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.twoButton, Observable.Return(twoButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.threeButton, Observable.Return(threeButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.fourButton, Observable.Return(fourButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.fiveButton, Observable.Return(fiveButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.sixButton, Observable.Return(sixButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.sevenButton, Observable.Return(sevenButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.eightButton, Observable.Return(eightButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.nineButton, Observable.Return(nineButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.UpdateCommand, v => v.zeroButton, Observable.Return(zeroButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.oneButton, Observable.Return(oneButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.twoButton, Observable.Return(twoButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.threeButton, Observable.Return(threeButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.fourButton, Observable.Return(fourButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.fiveButton, Observable.Return(fiveButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.sixButton, Observable.Return(sixButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.sevenButton, Observable.Return(sevenButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.eightButton, Observable.Return(eightButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.nineButton, Observable.Return(nineButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.ZeroButton, Observable.Return(ZeroButton.TitleLabel.Text));
 			this.BindCommand(this.ViewModel, vm => vm.LoginCommand, v => v.LoginButton);
-			this.BindCommand(this.ViewModel, vm => vm.ResetCommand, v => v.clrButton);
+			this.BindCommand(this.ViewModel, vm => vm.ClearCommand, v => v.ClearButton);
 		}
 	}
 }

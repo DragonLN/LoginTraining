@@ -18,7 +18,7 @@ namespace LoginTraining.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton clrButton { get; set; }
+        UIKit.UIButton ClearButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -82,13 +82,13 @@ namespace LoginTraining.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton zeroButton { get; set; }
+        UIKit.UIButton ZeroButton { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (clrButton != null) {
-                clrButton.Dispose ();
-                clrButton = null;
+            if (ClearButton != null) {
+                ClearButton.Dispose ();
+                ClearButton = null;
             }
 
             if (CodeLabel != null) {
@@ -166,9 +166,9 @@ namespace LoginTraining.iOS
                 twoButton = null;
             }
 
-            if (zeroButton != null) {
-                zeroButton.Dispose ();
-                zeroButton = null;
+            if (ZeroButton != null) {
+                ZeroButton.Dispose ();
+                ZeroButton = null;
             }
         }
     }
