@@ -1,0 +1,6 @@
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/bin/Debug/LoginTraining.pdb
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/bin/Debug/LoginTraining.dll
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/obj/Debug/LoginTraining.dll
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/obj/Debug/LoginTraining.pdb
+/Users/luan.nguyen/Desktop/Project/LoginTraining/LoginTraining/bin/Debug/Newtonsoft.Json.dll

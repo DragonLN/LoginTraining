@@ -1,0 +1,36 @@
+﻿{
+    "rolejson": [
+        {
+            "Role": "Admin1",
+            "Passcode": "123"
+        },
+    	{
+            "Role": "Admin2",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Admin3",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Staff1",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Staff2",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Staff3",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Staff4",
+            "Passcode": "123"
+        },
+        {
+            "Role": "Staff5",
+            "Passcode": "123"
+        },
+	]	
+}
