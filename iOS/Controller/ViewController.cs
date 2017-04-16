@@ -166,19 +166,27 @@ namespace LoginTraining.iOS
 			SetBorderColor(ZeroButton);
 			SetBorderColor(LoginButton);
 			SetBorderColor(ClearButton);
+            SetBorderColor(TwoButton);
+            SetBorderColor(ThreeButton);
+            SetBorderColor(FourButton);
+            SetBorderColor(FiveButton);
+            SetBorderColor(SixButton);
+            SetBorderColor(SevenButton);
+            SetBorderColor(EightButton);
+            SetBorderColor(NineButton);
 		}
 
 		private void BindCommandControl()
 		{
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.oneButton, Observable.Return(oneButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.twoButton, Observable.Return(twoButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.threeButton, Observable.Return(threeButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.fourButton, Observable.Return(fourButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.fiveButton, Observable.Return(fiveButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.sixButton, Observable.Return(sixButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.sevenButton, Observable.Return(sevenButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.eightButton, Observable.Return(eightButton.TitleLabel.Text));
-			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.nineButton, Observable.Return(nineButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.OneButton, Observable.Return(OneButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.TwoButton, Observable.Return(TwoButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.ThreeButton, Observable.Return(ThreeButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.FourButton, Observable.Return(FourButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.FiveButton, Observable.Return(FiveButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.SixButton, Observable.Return(SixButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.SevenButton, Observable.Return(SevenButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.EightButton, Observable.Return(EightButton.TitleLabel.Text));
+			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.NineButton, Observable.Return(NineButton.TitleLabel.Text));
 			this.BindCommand(this.ViewModel, vm => vm.AddKeyPadCommand, v => v.ZeroButton, Observable.Return(ZeroButton.TitleLabel.Text));
 			this.BindCommand(this.ViewModel, vm => vm.LoginCommand, v => v.LoginButton);
 			this.BindCommand(this.ViewModel, vm => vm.ClearCommand, v => v.ClearButton);

@@ -46,7 +46,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="34" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="7" y="354" width="101" height="45"/>
+                                        <rect key="frame" x="7" y="347" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="0">
                                             <color key="titleShadowColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
@@ -54,7 +54,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="35" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="108" y="354" width="101" height="45"/>
+                                        <rect key="frame" x="108" y="347" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Login">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -62,7 +62,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="36" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="209" y="354" width="101" height="45"/>
+                                        <rect key="frame" x="209" y="347" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Clr">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -70,7 +70,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="30" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="134" y="307" width="101" height="45"/>
+                                        <rect key="frame" x="209" y="305" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="3">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,7 +78,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="29" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="80" y="307" width="101" height="45"/>
+                                        <rect key="frame" x="108" y="305" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="2">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -86,7 +86,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="28" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="26" y="307" width="101" height="45"/>
+                                        <rect key="frame" x="7" y="303" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="1">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,7 +94,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="26" y="259" width="101" height="45"/>
+                                        <rect key="frame" x="7" y="261" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="4">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -102,7 +102,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="24" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="80" y="259" width="101" height="45"/>
+                                        <rect key="frame" x="108" y="261" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="5">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -110,7 +110,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="25" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="134" y="259" width="101" height="45"/>
+                                        <rect key="frame" x="209" y="261" width="101" height="45"/>
                                         <state key="normal" title="6">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
@@ -118,7 +118,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="20" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="134" y="218" width="101" height="45"/>
+                                        <rect key="frame" x="209" y="217" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="9">
                                             <color key="titleShadowColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
@@ -126,7 +126,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="19" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="80" y="218" width="101" height="45"/>
+                                        <rect key="frame" x="108" y="217" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="8">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,7 +134,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="18" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                        <rect key="frame" x="26" y="218" width="101" height="45"/>
+                                        <rect key="frame" x="7" y="217" width="101" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="7">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -162,15 +162,15 @@
                         <outlet property="ZeroButton" destination="34" id="name-outlet-34"/>
                         <outlet property="LoginButton" destination="35" id="name-outlet-35"/>
                         <outlet property="ClearButton" destination="36" id="name-outlet-36"/>
-                        <outlet property="threeButton" destination="30" id="name-outlet-30"/>
-                        <outlet property="twoButton" destination="29" id="name-outlet-29"/>
-                        <outlet property="oneButton" destination="28" id="name-outlet-28"/>
-                        <outlet property="fourButton" destination="23" id="name-outlet-23"/>
-                        <outlet property="fiveButton" destination="24" id="name-outlet-24"/>
-                        <outlet property="sixButton" destination="25" id="name-outlet-25"/>
-                        <outlet property="nineButton" destination="20" id="name-outlet-20"/>
-                        <outlet property="eightButton" destination="19" id="name-outlet-19"/>
-                        <outlet property="sevenButton" destination="18" id="name-outlet-18"/>
+                        <outlet property="ThreeButton" destination="30" id="name-outlet-30"/>
+                        <outlet property="TwoButton" destination="29" id="name-outlet-29"/>
+                        <outlet property="OneButton" destination="28" id="name-outlet-28"/>
+                        <outlet property="FourButton" destination="23" id="name-outlet-23"/>
+                        <outlet property="FiveButton" destination="24" id="name-outlet-24"/>
+                        <outlet property="SixButton" destination="25" id="name-outlet-25"/>
+                        <outlet property="NineButton" destination="20" id="name-outlet-20"/>
+                        <outlet property="EightButton" destination="19" id="name-outlet-19"/>
+                        <outlet property="SevenButton" destination="18" id="name-outlet-18"/>
                         <outlet property="LoginFrameView" destination="349" id="name-outlet-349"/>
                         <outlet property="RolePickerView" destination="373" id="name-outlet-373"/>
                     </connections>

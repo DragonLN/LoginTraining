@@ -26,15 +26,15 @@ namespace LoginTraining.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton eightButton { get; set; }
+        UIKit.UIButton EightButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton fiveButton { get; set; }
+        UIKit.UIButton FiveButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton fourButton { get; set; }
+        UIKit.UIButton FourButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -50,11 +50,11 @@ namespace LoginTraining.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton nineButton { get; set; }
+        UIKit.UIButton NineButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton oneButton { get; set; }
+        UIKit.UIButton OneButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -66,19 +66,19 @@ namespace LoginTraining.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton sevenButton { get; set; }
+        UIKit.UIButton SevenButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton sixButton { get; set; }
+        UIKit.UIButton SixButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton threeButton { get; set; }
+        UIKit.UIButton ThreeButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton twoButton { get; set; }
+        UIKit.UIButton TwoButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -96,19 +96,19 @@ namespace LoginTraining.iOS
                 CodeLabel = null;
             }
 
-            if (eightButton != null) {
-                eightButton.Dispose ();
-                eightButton = null;
+            if (EightButton != null) {
+                EightButton.Dispose ();
+                EightButton = null;
             }
 
-            if (fiveButton != null) {
-                fiveButton.Dispose ();
-                fiveButton = null;
+            if (FiveButton != null) {
+                FiveButton.Dispose ();
+                FiveButton = null;
             }
 
-            if (fourButton != null) {
-                fourButton.Dispose ();
-                fourButton = null;
+            if (FourButton != null) {
+                FourButton.Dispose ();
+                FourButton = null;
             }
 
             if (LoginButton != null) {
@@ -126,14 +126,14 @@ namespace LoginTraining.iOS
                 LoginTitleLabel = null;
             }
 
-            if (nineButton != null) {
-                nineButton.Dispose ();
-                nineButton = null;
+            if (NineButton != null) {
+                NineButton.Dispose ();
+                NineButton = null;
             }
 
-            if (oneButton != null) {
-                oneButton.Dispose ();
-                oneButton = null;
+            if (OneButton != null) {
+                OneButton.Dispose ();
+                OneButton = null;
             }
 
             if (RoleButton != null) {
@@ -146,24 +146,24 @@ namespace LoginTraining.iOS
                 RolePickerView = null;
             }
 
-            if (sevenButton != null) {
-                sevenButton.Dispose ();
-                sevenButton = null;
+            if (SevenButton != null) {
+                SevenButton.Dispose ();
+                SevenButton = null;
             }
 
-            if (sixButton != null) {
-                sixButton.Dispose ();
-                sixButton = null;
+            if (SixButton != null) {
+                SixButton.Dispose ();
+                SixButton = null;
             }
 
-            if (threeButton != null) {
-                threeButton.Dispose ();
-                threeButton = null;
+            if (ThreeButton != null) {
+                ThreeButton.Dispose ();
+                ThreeButton = null;
             }
 
-            if (twoButton != null) {
-                twoButton.Dispose ();
-                twoButton = null;
+            if (TwoButton != null) {
+                TwoButton.Dispose ();
+                TwoButton = null;
             }
 
             if (ZeroButton != null) {
